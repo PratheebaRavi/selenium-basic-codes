@@ -16,7 +16,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class SauceLabs {
 
-public static final String USERNAME = "rahul2";
+public static final String USERNAME = "pratheeba";
 
   public static final String ACCESS_KEY = "xxxxx";
 
