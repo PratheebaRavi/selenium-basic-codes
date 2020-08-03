@@ -17,13 +17,13 @@ public class Calendar {
 		driver.findElementByXPath(".//*[@id='travel_date']").click();
 
 
-		while(!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("May"))
+		while(!driver.findElement(By.cssSelector("[class='datepicker-days'] [class='datepicker-switch']")).getText().contains("July"))
 		{
 		driver.findElement(By.cssSelector("[class='datepicker-days'] th[class='next']")).click();
 		}
 
 
-		List<WebElement> dates= driver.findElements(By.className("day"));
+		//List<WebElement> dates= driver.findElements(By.className("day"));
 		//Grab common attribute//Put into list and iterate
 		int count=driver.findElements(By.className("day")).size();
 
